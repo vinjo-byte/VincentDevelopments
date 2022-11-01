@@ -1,0 +1,43 @@
+html {
+    background-color: #014153;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-error {
+    text-align: center;
+}
+
+.header-error {
+    color: white;
+    font-size: 175px;
+    text-align: center;
+    margin-top: 200px;
+    font-weight: 700;
+}
+
+.header-error strong {
+    color: #ED6A4E;
+}
+
+.subheader {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.error-button {
+    text-align: center;
+    text-transform: none;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10000px;
+    margin-top: 30px;
+    transition: all 0.8s;
+}
+
+.error-button:hover {
+    background-color: white;
+    color: #014153;
+}
