@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://vincent-dev.com/$1 [R=301,L]
+
+ErrorDocument 404 /404.html
+
+Options -MultiViews
+CheckSpelling off
