@@ -220,7 +220,7 @@ body {
 
 input.form__input[type="text"],
 input.form__input[type="email"],
-input.form__input[type="textarea"],
+textarea.form__input,
 input.form__input {
     -webkit-appearance: none;
     appearance: none;
@@ -1299,7 +1299,7 @@ svg {
     }
 }
 
-@media (min-widht: 10em) {
+@media (min-width: 10em) {
     .mobile_privacy-policy {
         font-size: 10px;
     }
